@@ -8,6 +8,7 @@ Security and stability
 * Clamp ptrace poke length to mapped buffer size
 * Replace shell command with execvp for the shell handler
 * Read process list from /proc instead of ps popen (#434)
+* No longer hang, or crash, when the target exits or is killed during a scan
 
 Compiler / portability
 ----------------------
